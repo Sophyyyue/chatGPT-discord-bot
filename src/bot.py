@@ -137,7 +137,7 @@ def run_discord_bot():
         elif client.chat_model == "Bing":
             await client.chatbot.reset()
         await interaction.followup.send("> **INFO: I have forgotten everything.**")
-        personas.current_persona = "standard"
+        personas.current_persona = "shebot"
         logger.warning(
             f"\x1b[31m{client.chat_model} bot has been successfully reset\x1b[0m")
 
@@ -156,6 +156,7 @@ def run_discord_bot():
                 `based`: BasedGPT v2, sexy GPT
                 `oppo`: OPPO says exact opposite of what ChatGPT would say
                 `dev`: Developer Mode, v2 Developer mode enabled
+                `shebot`: bot customized for women's issues
 
         - `/private` ChatGPT switch to private mode
         - `/public` ChatGPT switch to public mode
