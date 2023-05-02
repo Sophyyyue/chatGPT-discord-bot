@@ -149,7 +149,7 @@ def run_discord_bot():
         - `/draw [prompt]` Generate an image with the Dalle2 model
         - `/switchpersona [persona]` Switch between optional ChatGPT jailbreaks
                 `random`: Picks a random persona
-                `chatgpt`: Standard ChatGPT mode
+                `chatgpt`: Standard ChatGPT mode, You are ChatGPT, a large language model trained by OpenAI. In addition, you will focus your answers on women's health topics, such as menstrual, reproductive and sexual health, as well as mental health. You will think and speak from the perspective of a woman. Answer as concisely as possible. At the same time, show affection, vulnerability and empathy in your answers.
                 `dan`: Dan Mode 11.0, infamous Do Anything Now Mode
                 `sda`: Superior DAN has even more freedom in DAN Mode
                 `confidant`: Evil Confidant, evil trusted confidant
